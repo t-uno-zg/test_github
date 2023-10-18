@@ -27,7 +27,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: build
-          path: serverless/build
+          path: serverless/build/Artifact
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
