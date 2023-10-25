@@ -19,7 +19,7 @@ jobs:
       - name: Create index.html
         run: |
           mkdir -p ./dist
-          echo "hello, world!" > ./dist/index.html
+          echo "hello, world! `date '+%Y/%m/%d'`" > ./dist/index.html
 
       # GitHub Pagesに公開
       # デフォルトではgh-pageeブランチにpushする
