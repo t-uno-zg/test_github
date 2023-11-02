@@ -18,7 +18,7 @@ jobs:
       # 実際はGitリポジトリをチェックアウトしてそこからビルドすることが多い
       - name: Create index.html
         run: |
-          mkdir -p ./dist
+          mkdir -p ./distA
           echo "hello, world! `date '+%Y/%m/%d'`" > ./dist/index.html
 
       # GitHub Pagesに公開
